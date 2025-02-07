@@ -69,6 +69,16 @@ const OGImage = new URL(meta.ogImage, Astro.url).href;
   <meta property="twitter:image" content={OGImage} />
   <meta property="twitter:image:alt" content={meta.ogImageAlt} />
 
+  <!-- Google tag (gtag.js) -->
+  <script type="text/partytown" async src="https://www.googletagmanager.com/gtag/js?id=G-K60M9Q2CLF"></script>
+  <script type="text/partytown">
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-K60M9Q2CLF');
+  </script>
+
   {
     isArticleMeta(meta) ? (
       <>
