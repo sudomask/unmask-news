@@ -1,10 +1,10 @@
 import type { Link } from "../types";
 
 export const SITE = {
-  title: "Astro News",
-  description: "A news website built with Astro",
-  author: "Mohammad Rahmani",
-  url: "https://astro-news-six.vercel.app",
+  title: "Unmask News",
+  description: "A news website built for those who want the truth.",
+  author: "The Unmask News Team",
+  url: "https://unmasknews.com",
   github: "https://github.com/Mrahmani71/astro-news",
   locale: "en-US",
   dir: "ltr",
@@ -66,11 +66,11 @@ export const OTHER_LINKS: Link[] = [
     text: "Cookie Policy",
   },
   {
-    href: "https://astro-news-six.vercel.app/rss.xml",
+    href: "https://unmasknews.com/rss.xml",
     text: "RSS",
   },
   {
-    href: "https://astro-news-six.vercel.app/sitemap-index.xml",
+    href: "https://unmasknews.com/sitemap-index.xml",
     text: "Sitemap",
   },
 ];
