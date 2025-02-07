@@ -5,7 +5,7 @@ export const SITE = {
   description: "A news website built for those who want the truth.",
   author: "The Unmask News Team",
   url: "https://unmasknews.com",
-  github: "https://github.com/Mrahmani71/astro-news",
+  twitter: "https://twitter.com/unmasknews",
   locale: "en-US",
   dir: "ltr",
   charset: "UTF-8",
