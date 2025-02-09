@@ -19,8 +19,8 @@ export const NAVIGATION_LINKS: Link[] = [
     text: "Technology",
   },
   {
-    href: "/categories/programming",
-    text: "Programming",
+    href: "/categories/politics",
+    text: "Politics",
   },
   {
     href: "/categories/lifestyle",
@@ -87,7 +87,7 @@ export const SOCIAL_LINKS: Link[] = [
     icon: "telegram",
   },
   {
-    href: "https://twitter.com",
+    href: "https://twitter.com/unmasknews",
     text: "Twitter",
     icon: "newTwitter",
   },
